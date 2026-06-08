@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>搜索影片-免费高清影院</title>
+  <meta name="description" content="免费高清影院搜索页面，支持按片名、地区、年份、类型和标签查找电影电视剧。">
+  <meta name="keywords" content="国产影视免费高清观看_最新电影电视剧在线点播-免费高清影院,国产,视频,免费,在线观看,高清,影视大全,影片搜索,电影搜索,电视剧搜索">
+  <meta name="robots" content="index,follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="搜索影片-免费高清影院">
+  <meta property="og:description" content="免费高清影院搜索页面，支持按片名、地区、年份、类型和标签查找电影电视剧。">
+  <link rel="stylesheet" href="./assets/style.css">
+  <script defer src="./assets/app.js"></script>
+  <script defer src="./assets/search-data.js"></script>
+  <script defer src="./assets/search.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav-shell" aria-label="主导航">
+    <a class="brand" href="./index.html" aria-label="免费高清影院">
+      <span class="brand-mark">▶</span>
+      <span class="brand-name">免费高清影院</span>
+    </a>
+    <div class="desktop-nav">
+        <a class="nav-link" href="./index.html">首页</a>
+        <a class="nav-link" href="./movies.html">全部影片</a>
+        <a class="nav-link" href="./categories.html">分类</a>
+        <a class="nav-link" href="./ranking.html">排行榜</a>
+        <a class="nav-link active" href="./search.html">搜索</a>
+    </div>
+    <form class="nav-search" data-global-search>
+      <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-toggle" type="button" aria-label="打开导航" aria-expanded="false" data-menu-toggle>☰</button>
+  </nav>
+  <div class="mobile-nav" data-mobile-nav>
+    <form class="mobile-search" data-global-search>
+      <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+      <a class="mobile-nav-link" href="./index.html">首页</a>
+      <a class="mobile-nav-link" href="./movies.html">全部影片</a>
+      <a class="mobile-nav-link" href="./categories.html">分类</a>
+      <a class="mobile-nav-link" href="./ranking.html">排行榜</a>
+      <a class="mobile-nav-link active" href="./search.html">搜索</a>
+  </div>
+</header>
+
+<main>
+  <section class="sub-hero search-hero">
+    <div class="content-shell">
+      <span>Search</span>
+      <h1>搜索影片</h1>
+      <p>输入片名、地区、年份、类型或标签，快速找到对应作品。</p>
+      <form class="page-search" data-search-page-form>
+        <input type="search" name="q" placeholder="请输入影片关键词" autocomplete="off" data-search-page-input>
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+  </section>
+  <section class="content-section">
+    <div class="content-shell">
+      <div class="search-summary" data-search-summary></div>
+      <div class="movie-grid search-results" data-search-results></div>
+      <div class="empty-state" data-search-empty>请输入关键词</div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-shell">
+    <div>
+      <a class="footer-brand" href="./index.html">免费高清影院</a>
+      <p>精选电影、电视剧、剧集与类型片内容，清晰呈现每一部作品的剧情、标签与相关推荐。</p>
+    </div>
+    <div class="footer-links">
+      <a href="./index.html">首页</a>
+      <a href="./movies.html">全部影片</a>
+      <a href="./categories.html">分类</a>
+      <a href="./ranking.html">排行榜</a>
+      <a href="./category-guochan-theater.html">国产剧场</a><a href="./category-latest-movies.html">最新电影</a><a href="./category-series-zone.html">剧集专区</a><a href="./category-action-adventure.html">动作冒险</a><a href="./category-romance-drama.html">爱情剧情</a>
+    </div>
+    <p class="footer-copy">© 2026 免费高清影院 · 高清影视在线点播</p>
+  </div>
+</footer>
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
